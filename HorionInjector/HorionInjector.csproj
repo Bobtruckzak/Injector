@@ -29,11 +29,9 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
 
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <PlatformTarget>x64</PlatformTarget>
-    <DebugType>none</DebugType>
-    <DebugSymbols>false</DebugSymbols>
-  </PropertyGroup>
+  <PlatformTarget>x64</PlatformTarget>
+  <DebugType>none</DebugType>
+  <DebugSymbols>false</DebugSymbols>
 
   <ItemGroup>
     <None Remove="console.png" />
